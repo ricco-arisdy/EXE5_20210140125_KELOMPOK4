@@ -61,6 +61,20 @@ namespace EXE5_20210140125_KELOMPOK4
                     ricco = ricco + 1;
             }
         }
+
+        public void display()
+        {
+            int ricco_position = ricco;
+            int arisdy_position = arisdy;
+
+            if (ricco == -1)
+            {
+                Console.WriteLine("Queue is Empty\n");
+                return;
+            }
+            Console.WriteLine("\nElement in the queue are............\n");
+            
+        }
         static void Main(string[] args)
         {
         }
