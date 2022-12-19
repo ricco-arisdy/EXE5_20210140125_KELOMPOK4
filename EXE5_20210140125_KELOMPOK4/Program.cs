@@ -73,7 +73,15 @@ namespace EXE5_20210140125_KELOMPOK4
                 return;
             }
             Console.WriteLine("\nElement in the queue are............\n");
-            
+            if (ricco_position <= arisdy_position)
+            {
+                while (ricco_position <= arisdy_position)
+                {
+                    Console.Write(queques_array[ricco_position] + " ");
+                    ricco_position++;
+                }
+                Console.WriteLine();
+            }
         }
         static void Main(string[] args)
         {
