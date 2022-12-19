@@ -38,6 +38,17 @@ namespace EXE5_20210140125_KELOMPOK4
             }
             queques_array[ricco] = element;
         }
+
+        public void delete()
+        {
+            if (ricco == -1)
+            {
+                Console.WriteLine("Queue underflow\n");
+                return;
+            }
+            Console.WriteLine("\n The element deleted from the queue is: " + queques_array[ricco] + "\n");
+
+        }
         static void Main(string[] args)
         {
         }
