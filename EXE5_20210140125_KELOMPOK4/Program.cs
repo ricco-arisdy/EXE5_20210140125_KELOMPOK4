@@ -82,6 +82,21 @@ namespace EXE5_20210140125_KELOMPOK4
                 }
                 Console.WriteLine();
             }
+            else
+            {
+                while(ricco_position <= max -1)
+                {
+                    Console.Write(queques_array[ricco_position] + " ");
+                    ricco_position++;
+                }
+                ricco_position = 0;
+                while (ricco_position <= arisdy_position)
+                {
+                    Console.WriteLine(queques_array[ricco_position] + " ");
+                    ricco_position++;
+                }
+                Console.WriteLine();
+            }
         }
         static void Main(string[] args)
         {
