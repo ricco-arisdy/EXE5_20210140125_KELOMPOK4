@@ -48,6 +48,12 @@ namespace EXE5_20210140125_KELOMPOK4
             }
             Console.WriteLine("\n The element deleted from the queue is: " + queques_array[ricco] + "\n");
 
+            if (ricco == arisdy)
+            {
+                ricco = -1;
+                arisdy = -1;
+            }
+
         }
         static void Main(string[] args)
         {
