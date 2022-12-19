@@ -100,6 +100,26 @@ namespace EXE5_20210140125_KELOMPOK4
         }
         static void Main(string[] args)
         {
+            Program queue = new Program();
+            char ch;
+            while (true)
+            {
+                try
+                {
+                    Console.WriteLine("Menu");
+                    Console.WriteLine("A. Implement insert operation");
+                    Console.WriteLine("B. Implement deleted operation");
+                    Console.WriteLine("C. Display value");
+                    Console.WriteLine("D. Exit");
+                    Console.WriteLine("\nEnter your choice (A-D): ");
+                    ch = Convert.ToChar(Console.ReadLine());
+                    Console.WriteLine();
+                }
+                catch(Exception e)
+                {
+
+                }
+            }
         }
     }
 }
