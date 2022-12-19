@@ -29,7 +29,14 @@ namespace EXE5_20210140125_KELOMPOK4
                 ricco = 0;
                 arisdy = 0;
             }
-            
+            else
+            {
+                if (ricco == max - 1)
+                    ricco = 0;
+                else;
+                ricco = ricco + 1;
+            }
+            queques_array[ricco] = element;
         }
         static void Main(string[] args)
         {
