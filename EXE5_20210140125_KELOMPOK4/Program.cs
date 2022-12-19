@@ -114,10 +114,39 @@ namespace EXE5_20210140125_KELOMPOK4
                     Console.WriteLine("\nEnter your choice (A-D): ");
                     ch = Convert.ToChar(Console.ReadLine());
                     Console.WriteLine();
+                    switch (ch)
+                    {
+                        case 'A':
+                            {
+                                Console.Write("Enter a abjad : ");
+                                int num = Convert.ToInt32(System.Console.ReadLine());
+                                Console.WriteLine();
+                                queue.insert(num);
+
+                            }
+                            break;
+                        case 'B':
+                            {
+                                queue.delete();
+                            }
+                            break;
+                        case 'C':
+                            {
+                                queue.display();
+                            }
+                            break;
+                        case 'D':
+                            return;
+                        default:
+                            {
+                                Console.WriteLine("Invalid option !!");
+                            }
+                            break;
+                    }
                 }
                 catch(Exception e)
                 {
-
+                    Console.WriteLine("Check for the value entered");
                 }
             }
         }
