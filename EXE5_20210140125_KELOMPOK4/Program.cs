@@ -16,6 +16,21 @@ namespace EXE5_20210140125_KELOMPOK4
             ricco = -1;
             arisdy = -1;
         }
+
+        public void insert(int element)
+        {
+            if ((ricco == 0 && arisdy == max -1) || (ricco == arisdy +1))
+            {
+                Console.WriteLine("\nQueue overlow\n");
+                return;
+            }
+            if (ricco == -1)
+            {
+                ricco = 0;
+                arisdy = 0;
+            }
+            
+        }
         static void Main(string[] args)
         {
         }
